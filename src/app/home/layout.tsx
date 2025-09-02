@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from '@/app/components/shared/navBar';
+import Footer from '@/app/components/shared/footer';
 export default function HomeLayout({
     children,
 }: Readonly<{
@@ -9,6 +10,7 @@ export default function HomeLayout({
         <main>
             <NavBar />
             {children}
+            <Footer />
         </main>
     );
 }
