@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Logo from '../../../../public/img/serhaz-logo.png';
 
-export default function Footer() {
+export function Footer() {
     return (
         <footer className="footer footer-center p-4 bg-base-300 text-base-content rounded">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

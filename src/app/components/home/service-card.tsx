@@ -1,4 +1,4 @@
-export default function ServiceCard({ service }) {
+export function ServiceCard({ service }) {
     return (
         <div className="card w-96 bg-base-100 card-md shadow-sm">
             <div className="card-body">

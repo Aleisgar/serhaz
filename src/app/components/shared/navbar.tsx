@@ -10,7 +10,7 @@ const navigationItems = [
     { title: 'Contacto', url: 'home/contacto' },
 ];
 
-export default function NavBar() {
+export function Navbar() {
     const pathname = usePathname();
     return (
         <header>

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import ShipCargo from '../../../public/img/ship-cargo.jpg';
-import ServiceCard from '@/app/components/home/service-card';
+import { ServiceCard } from '@/app/components/home/service-card';
 const services = [
     {
         title: 'Consejero de seguridad',

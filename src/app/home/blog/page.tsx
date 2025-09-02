@@ -1,3 +1,3 @@
-export default function Blog() {
+export function Blog() {
     return <div>Blog</div>;
 }
