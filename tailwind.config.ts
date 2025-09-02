@@ -9,10 +9,26 @@ export default {
     theme: {
         extend: {
             colors: {
+                primary: 'var(--primary)',
+                secondary: 'var(--secondary)',
+                danger: 'var(--danger)',
                 background: 'var(--background)',
                 foreground: 'var(--foreground)',
             },
         },
     },
-    plugins: [],
+    plugins: [require('daisyui')],
+    daisyui: {
+        themes: [
+            {
+                mytheme: {
+                    primary: 'var(--primary)',
+                    secondary: '#9333ea',
+                    accent: '#22c55e',
+                    neutral: '#111827',
+                    'base-100': '#c327e8',
+                },
+            },
+        ],
+    },
 } satisfies Config;
